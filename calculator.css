@@ -1,0 +1,31 @@
+#outer{
+    background-color: bisque;
+    height:450px;
+    width:300px;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;  
+    justify-content: center;;  
+}
+
+#outer div{
+    background:rgb(255, 255, 255);
+    width:23.5%;
+    height:70px;
+    border:2px solid bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+#outer div:first-child{
+    background-color: bisque;
+    height:16%; width:100%;
+    justify-content: end;
+    padding-right: 10px;
+    font-size: 2em;
+    
+}
+#outer #zero{width:48%;}
+#outer div:nth-child(4n+5){background-color: rgb(187, 64, 64);}
+#outer div:last-child{background-color: rgb(188, 62, 62);}
